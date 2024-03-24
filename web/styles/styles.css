@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    height: 2rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+nav img{
+    background-color: aqua;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,14rem);
+}
+
+main div{
+    
+    border: 10px solid;
+}
+
+main div img{
+    width: 200px;
+}
